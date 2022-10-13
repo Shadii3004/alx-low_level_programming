@@ -10,7 +10,7 @@ int main(void)
 
 {
 
-print("with proper grammer, but the o outcome is apiece of art,\n");
+printf("with proper grammer, but the o outcome is apiece of art,\n");
 
 return (0);
 
