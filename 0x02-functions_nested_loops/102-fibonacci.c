@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * main - Entry point
  * Description: prints the sum of even-valued
