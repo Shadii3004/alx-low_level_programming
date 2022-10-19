@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - Entry point
  * Description: prints the sum of even-valued
@@ -21,6 +22,6 @@ int main(void)
 				fib1 = fib2;
 				fib2 = sum;
 		}
-				printf("%.of\n", total_sum)
+				printf("%.f\n", total_sum);
 					return (0);
 }
