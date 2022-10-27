@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - the program prints a[2] = 98.
+ * main - the program prints a[2] = 98, followed by a new line.
  * Return: 0.
  */
 
@@ -13,7 +13,20 @@ int main(void)
 
 	a[2] = 1024;
 	p = &n;
-	p[5] = 98;
+
+/*
+ * write your line of code here...
+ * remember:
+ * - you are not allowed to use a
+ * - youare not allowed to modify p
+ * - only one statement
+ * - you are not allowed to code anything else than this line of code
+ */
+
+	*(p + 5) = 98;
+
+	/* ...so that this prints 98\n */
+
 	printf("a[2] = %d\n", a[2]);
 
 	return (0);
