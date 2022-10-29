@@ -3,7 +3,6 @@
 /**
  * _strcat - concatenated two strings
  * @dest: string to append to
- * @src: string to to
  * @src: sting to add
  * Return: a pointer to the resulting string
  */
