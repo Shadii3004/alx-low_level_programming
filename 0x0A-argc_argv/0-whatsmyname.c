@@ -9,6 +9,6 @@
 
 int main(int argc _attribute_((unused)), char *argv[])
 {
-	ptintf("%s╲n", argv[0]);
+	printf("%s╲n", argv[0]);
 	return (0);
 }
